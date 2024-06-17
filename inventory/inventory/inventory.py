@@ -10,6 +10,9 @@ print(inventory_file_path)
 
 '''
 This is a comment for my git task on a new branch task 7
+Change the class Shoe to sneaker 
+Add dispatch and Recieving for the store manager
+Add courier services to the inventory 
 '''
 
 class Shoe:
