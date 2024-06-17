@@ -17,22 +17,22 @@ Add courier services to the inventory
 
 class Shoe:
 
-    def __init__(self, country, code, product, cost, quantity):
+    def __init__(self, country, code, product, price, quantity):
         self.country = country
         self.code = code 
         self.product = product
-        self.cost = cost 
+        self.price = price  
         self.quantity = quantity
      
     def get_cost(self):
-        return self.cost
+        return self.price
  
     def get_quantity(self):
         return self.quantity 
  
     def __str__(self):
         return f"Country:{self.country}, Code:{self.code}, Product:{self.product},"\
-           f"Cost:{self.cost}, Quantity:{self.quantity}"
+           f"Cost:{self.price}, Quantity:{self.quantity}"
         
 #=============Shoe list===========
 '''
@@ -49,8 +49,8 @@ def read_shoes_data():
             next(file)
             for line in file:
                 data = line.strip().split(",")
-                country, code, product, cost, quantity = data
-                shoe = Shoe(country, code, product, int(cost), int(quantity))
+                country, code, product, price, quantity = data
+                shoe = Shoe(country, code, product, int(price), int(quantity))
                 shoe_list.append(shoe)
         print("Shoe data has been read successfully.")
     except FileNotFoundError:
@@ -63,7 +63,8 @@ def capture_shoes():
     product = input("Enter product: ")
     cost = int(input("Enter cost: "))
     quantity = int(input("Enter quantity: "))
-    shoe = Shoe(country, code, product, cost, quantity)
+    new_varnew_var = shoe = Shoe(country, code, product, price, quantity)
+    
     shoe_list.append(shoe)
     print("Shoe data has been captured successfully.")
     
