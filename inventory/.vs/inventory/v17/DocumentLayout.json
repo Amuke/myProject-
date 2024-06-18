@@ -3,7 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Amu\\Dropbox\\AK22100003593\\1 - Introduction to programming\\L1T30\\myProject-\\inventory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{425695B1-4141-4F77-B26A-6FCFEB7D1C60}|inventory\\inventory.pyproj|C:\\Users\\Amu\\Dropbox\\AK22100003593\\1 - Introduction to programming\\L1T30\\myProject-\\inventory\\inventory\\inventory.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{425695B1-4141-4F77-B26A-6FCFEB7D1C60}|inventory\\inventory.pyproj|solutionrelative:inventory\\inventory.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -14,7 +13,6 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -24,11 +22,8 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "inventory.py",
-              "DocumentMoniker": "C:\\Users\\Amu\\Dropbox\\AK22100003593\\1 - Introduction to programming\\L1T30\\myProject-\\inventory\\inventory\\inventory.py",
               "RelativeDocumentMoniker": "inventory\\inventory.py",
-              "ToolTip": "C:\\Users\\Amu\\Dropbox\\AK22100003593\\1 - Introduction to programming\\L1T30\\myProject-\\inventory\\inventory\\inventory.py",
               "RelativeToolTip": "inventory\\inventory.py",
-              "ViewState": "AQIAADEAAAAAAAAAAAAmwEYAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2024-05-08T14:18:04.159Z",
               "EditorCaption": ""
